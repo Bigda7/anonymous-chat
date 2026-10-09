@@ -1,4 +1,4 @@
-# Common Room
+# Anonymous Chat
 
 A shared anonymous chat built with React, TypeScript, Vite, Express, WebSockets, and Firebase.
 
@@ -227,21 +227,21 @@ Use JDK 21 or later and the Firebase CLI for local emulator development. See the
 
 ```sh
 npm install --global firebase-tools
-firebase emulators:start --only auth,firestore --project demo-common-room
+firebase emulators:start --only auth,firestore --project demo-anonymous-chat
 ```
 
 Use the following frontend configuration:
 
 ```dotenv
 VITE_FIREBASE_API_KEY=demo-api-key
-VITE_FIREBASE_AUTH_DOMAIN=demo-common-room.firebaseapp.com
-VITE_FIREBASE_PROJECT_ID=demo-common-room
+VITE_FIREBASE_AUTH_DOMAIN=demo-anonymous-chat.firebaseapp.com
+VITE_FIREBASE_PROJECT_ID=demo-anonymous-chat
 VITE_FIREBASE_APP_ID=demo-app-id
 VITE_WS_URL=ws://localhost:3001/ws
 VITE_USE_FIREBASE_EMULATORS=true
 ```
 
-Set `FIREBASE_PROJECT_ID=demo-common-room` in the backend, remove `GOOGLE_APPLICATION_CREDENTIALS`, and enable both emulator hosts:
+Set `FIREBASE_PROJECT_ID=demo-anonymous-chat` in the backend, remove `GOOGLE_APPLICATION_CREDENTIALS`, and enable both emulator hosts:
 
 ```dotenv
 FIREBASE_AUTH_EMULATOR_HOST=127.0.0.1:9099

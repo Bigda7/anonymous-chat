@@ -10,7 +10,7 @@ export function App() {
           <div className="brand-mark">
             <RoomMark />
           </div>
-          <p className="eyebrow">COMMON ROOM</p>
+          <p className="eyebrow">ANONYMOUS CHAT</p>
           <h1>Connect your room.</h1>
           <p>
             Copy <code>frontend/.env.example</code> to <code>frontend/.env</code>, add your Firebase

@@ -143,12 +143,12 @@ export function ChatRoom({
   return (
     <div className="app-shell">
       <aside className="sidebar">
-        <a className="brand" href="/" aria-label="Common Room home">
+        <a className="brand" href="/" aria-label="Anonymous Chat home">
           <span className="brand-mark">
             <RoomMark />
           </span>
           <span>
-            common<span className="brand-light">room</span>
+            anonymous<span className="brand-light">chat</span>
           </span>
         </a>
         <div className="workspace-label">
@@ -254,7 +254,7 @@ export function ChatRoom({
                 <RoomMark />
               </div>
               <p className="eyebrow">THE CONVERSATION STARTS HERE</p>
-              <h2>Welcome to the common room.</h2>
+              <h2>Welcome to Anonymous Chat.</h2>
               <p>Different people. One place to connect.</p>
             </div>
             {state.nextCursor && (
