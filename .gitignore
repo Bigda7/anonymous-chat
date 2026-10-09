@@ -1,0 +1,32 @@
+node_modules/
+dist/
+coverage/
+.npm-cache/
+.verification/
+.env
+.env.*
+!.env.example
+*.log
+*.tsbuildinfo
+backend/secrets/
+*service-account*.json
+.firebase/
+.firebaserc
+.emulator-data/
+
+# Local assistant instructions and planning documents.
+AGENTS.md
+PLAN.md
+.agents/
+.codex/
+
+# Local editor settings, credentials, and operating system files.
+.idea/
+.vscode/
+.aws/
+.ssh/
+.npmrc
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
